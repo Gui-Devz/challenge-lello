@@ -15,8 +15,6 @@ export const Header = () => {
   const handleShow = () => setShowModal(true);
 
   const listenScrollEvent = (event) => {
-    console.log(window.scrollY);
-
     if (window.scrollY > 50 && window.scrollY < 420) {
       setHeaderStyles("variant");
     } else if (window.scrollY < 50) {
