@@ -17,6 +17,7 @@ export default createGlobalStyle`
 --ice: #EBF6FA;
 --light-gray: #CCCCCC;
 --medium-gray: #666666;
+--medium-gray-second: #707070;
 --dark-gray: #333333;
 --red: #E2173D;
 
@@ -55,7 +56,7 @@ input,
 textarea,
 select,
 button {
-  font: 300 1rem 'Roboto', sans-serif;
+  font: 400 1rem 'Roboto', sans-serif;
 }
 
 body {
