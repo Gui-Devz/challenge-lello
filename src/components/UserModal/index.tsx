@@ -50,11 +50,11 @@ export const UserModal = ({ url, closeModal }: IUserModalProps) => {
           <p>Carregando ....</p>
         </div>
       )}
-      {!loading && user?.name && (
+      {!loading && user?.login && (
         <>
           <div className="d-flex mt-3 gap-2 align-items-center justify-content-center">
             <img src={user.avatar_url} alt="" />
-            <h4 className="m-0">{user.name}</h4>
+            <h4 className="m-0">{user.login}</h4>
           </div>
           <Content className="d-flex flex-column align-items-center text-left w-75 m-auto mt-5">
             <p className="w-100">

@@ -6,6 +6,7 @@ export interface IUsers {
 
 export interface IUser {
   name: string;
+  login: string;
   avatar_url: string;
   public_repos: number;
   followers: number;
