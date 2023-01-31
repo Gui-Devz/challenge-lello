@@ -12,7 +12,7 @@ export const Modal = styled.div`
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(24px);
 
-  z-index: 1000;
+  z-index: 10000;
 
   display: flex;
   align-items: center;
