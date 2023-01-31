@@ -48,7 +48,7 @@ export const Header = () => {
             <Logo />
           </li>
 
-          <div className="d-lg-flex gap-5">
+          <div className="d-lg-flex gap-5 align-items-center">
             <li className="d-none d-lg-block">
               <Link to="/">Home</Link>
             </li>
